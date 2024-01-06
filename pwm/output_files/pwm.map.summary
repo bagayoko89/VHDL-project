@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Nov 14 10:02:43 2023
+Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+Revision Name : pwm
+Top-level Entity Name : pwm
+Family : Cyclone IV E
+Total logic elements : 55
+    Total combinational functions : 55
+    Dedicated logic registers : 33
+Total registers : 33
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

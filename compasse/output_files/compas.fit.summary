@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Nov 13 21:52:47 2023
+Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+Revision Name : compas
+Top-level Entity Name : compas
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 94 / 22,320 ( < 1 % )
+    Total combinational functions : 80 / 22,320 ( < 1 % )
+    Dedicated logic registers : 68 / 22,320 ( < 1 % )
+Total registers : 68
+Total pins : 11 / 154 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

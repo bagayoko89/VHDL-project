@@ -1,0 +1,221 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/VHDL project/compasse/simulation/modelsim
+Ecompas
+Z1 w1699898381
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/DELL/Desktop/VHDL project/compasse/compas.vhd
+Z7 FC:/Users/DELL/Desktop/VHDL project/compasse/compas.vhd
+l0
+L6
+VcPjC5WVQj1eQDd>FVXSgn2
+!s100 27<12G^WQz;DHD@mGOnE?1
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1699899073
+!i10b 1
+Z10 !s108 1699899073.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/DELL/Desktop/VHDL project/compasse/compas.vhd|
+Z12 !s107 C:/Users/DELL/Desktop/VHDL project/compasse/compas.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+R5
+DEx4 work 6 compas 0 22 cPjC5WVQj1eQDd>FVXSgn2
+l71
+L15
+VBd<FF9JKe_9DE93b0>O]?3
+!s100 ]ljD^L;2JoMA:YFeFPlCQ2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecompteur
+Z15 w1699799671
+R2
+R3
+R4
+R5
+R0
+Z16 8C:/Users/DELL/Desktop/VHDL project/compasse/compteur.vhd
+Z17 FC:/Users/DELL/Desktop/VHDL project/compasse/compteur.vhd
+l0
+L6
+VDM8aejiBl^b_Ta9@D6jWg3
+!s100 eg9<ab6JDCfzakl;EXnjL2
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/DELL/Desktop/VHDL project/compasse/compteur.vhd|
+Z19 !s107 C:/Users/DELL/Desktop/VHDL project/compasse/compteur.vhd|
+!i113 1
+R13
+R14
+Acomp
+R2
+R3
+R4
+R5
+DEx4 work 8 compteur 0 22 DM8aejiBl^b_Ta9@D6jWg3
+l17
+L13
+Vc>g^GKC9BK@4z=Um?AIAc3
+!s100 EL:6YKo<^VGSNYLHI=P@`0
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Edivider10khz
+Z20 w1699795912
+R2
+R3
+R4
+R5
+R0
+Z21 8C:/Users/DELL/Desktop/VHDL project/compasse/divider10khz.vhd
+Z22 FC:/Users/DELL/Desktop/VHDL project/compasse/divider10khz.vhd
+l0
+L6
+V[3JA3Fh6=8cU8gDSn`:VY3
+!s100 >IAQP>Z7d7<?Ql9kEeaCK3
+R8
+31
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/DELL/Desktop/VHDL project/compasse/divider10khz.vhd|
+Z24 !s107 C:/Users/DELL/Desktop/VHDL project/compasse/divider10khz.vhd|
+!i113 1
+R13
+R14
+Abhv
+R2
+R3
+R4
+R5
+DEx4 work 12 divider10khz 0 22 [3JA3Fh6=8cU8gDSn`:VY3
+l16
+L12
+Ve45IUdo_SggGE1FLHoaDQ1
+!s100 KhKZb0ViUnm360aa5dQFK1
+R8
+31
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Emae
+Z25 w1699896340
+R2
+R3
+R4
+R5
+R0
+Z26 8C:/Users/DELL/Desktop/VHDL project/compasse/MAE.vhd
+Z27 FC:/Users/DELL/Desktop/VHDL project/compasse/MAE.vhd
+l0
+L6
+V9_nA>io9?TN]hQ;mB]WVb3
+!s100 _BPNjXDeIcPg=U:`kR91g0
+R8
+31
+R9
+!i10b 1
+R10
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/DELL/Desktop/VHDL project/compasse/MAE.vhd|
+Z29 !s107 C:/Users/DELL/Desktop/VHDL project/compasse/MAE.vhd|
+!i113 1
+R13
+R14
+Abhv
+R2
+R3
+R4
+R5
+DEx4 work 3 mae 0 22 9_nA>io9?TN]hQ;mB]WVb3
+l21
+L16
+Vf8jH`Z796<mPYQ@hj7azH1
+!s100 W^N2Zih2La];g?O8XX<6L3
+R8
+31
+R9
+!i10b 1
+R10
+R28
+R29
+!i113 1
+R13
+R14
+Eregister8bit
+Z30 w1699795980
+R4
+R5
+R0
+Z31 8C:/Users/DELL/Desktop/VHDL project/compasse/Register8Bit.vhd
+Z32 FC:/Users/DELL/Desktop/VHDL project/compasse/Register8Bit.vhd
+l0
+L4
+V2UI1MRGZC4:g_c5Z<DLUh2
+!s100 3==D`;G16cDFRD5266:_X2
+R8
+31
+Z33 !s110 1699899074
+!i10b 1
+R10
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/Users/DELL/Desktop/VHDL project/compasse/Register8Bit.vhd|
+Z35 !s107 C:/Users/DELL/Desktop/VHDL project/compasse/Register8Bit.vhd|
+!i113 1
+R13
+R14
+Abhv
+R4
+R5
+DEx4 work 12 register8bit 0 22 2UI1MRGZC4:g_c5Z<DLUh2
+l14
+L12
+VbcH8KoB4n`UjoI153D2aQ3
+!s100 EIhD0AHSZKIWCeADD6dma2
+R8
+31
+R33
+!i10b 1
+R10
+R34
+R35
+!i113 1
+R13
+R14

@@ -1,0 +1,8 @@
+
+State Machine - |compas|MAE:machine|current_state
+Name current_state.etat3 current_state.etat2 current_state.etat0 current_state.wait_pwm current_state.idle 
+current_state.idle 0 0 0 0 0 
+current_state.wait_pwm 0 0 0 1 1 
+current_state.etat0 0 0 1 0 1 
+current_state.etat2 0 1 0 0 1 
+current_state.etat3 1 0 0 0 1 

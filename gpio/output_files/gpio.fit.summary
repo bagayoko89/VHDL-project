@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Oct 19 11:33:00 2023
+Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+Revision Name : gpio
+Top-level Entity Name : gpio_nios
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 1,705 / 22,320 ( 8 % )
+    Total combinational functions : 1,590 / 22,320 ( 7 % )
+    Dedicated logic registers : 925 / 22,320 ( 4 % )
+Total registers : 925
+Total pins : 18 / 154 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 171,264 / 608,256 ( 28 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

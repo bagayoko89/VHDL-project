@@ -1,0 +1,216 @@
+Info: Starting: Create simulation model
+Info: qsys-generate "C:\Users\DELL\Desktop\VHDL project\pwmnios\pwm.qsys" --simulation=VHDL --allow-mixed-language-simulation --output-directory="C:\Users\DELL\Desktop\VHDL project\pwmnios\pwm\simulation" --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading pwmnios/pwm.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Adding entree [altera_avalon_pio 22.1]
+Progress: Parameterizing module entree
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding memoire [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module memoire
+Progress: Adding processeur [altera_nios2_gen2 22.1]
+Progress: Parameterizing module processeur
+Progress: Adding sortie [altera_avalon_pio 22.1]
+Progress: Parameterizing module sortie
+Progress: Adding sysid [altera_avalon_sysid_qsys 22.1]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: pwm.entree: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: pwm.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: pwm.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: pwm.sysid: Time stamp will be automatically updated when this component is generated.
+Info: pwm: Generating pwm "pwm" for SIM_VHDL
+Info: entree: Starting RTL generation for module 'pwm_entree'
+Info: entree:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=pwm_entree --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0100_entree_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --vhdl --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0100_entree_gen//pwm_entree_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0100_entree_gen/  ]
+Info: entree: Done RTL generation for module 'pwm_entree'
+Info: entree: "pwm" instantiated altera_avalon_pio "entree"
+Info: jtag_uart_0: Starting RTL generation for module 'pwm_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=pwm_jtag_uart_0 --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0101_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --vhdl --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0101_jtag_uart_0_gen//pwm_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0101_jtag_uart_0_gen/  ]
+Info: jtag_uart_0: Done RTL generation for module 'pwm_jtag_uart_0'
+Info: jtag_uart_0: "pwm" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: memoire: Starting RTL generation for module 'pwm_memoire'
+Info: memoire:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=pwm_memoire --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0102_memoire_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --vhdl --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0102_memoire_gen//pwm_memoire_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0102_memoire_gen/  ]
+Info: memoire: Done RTL generation for module 'pwm_memoire'
+Info: memoire: "pwm" instantiated altera_avalon_onchip_memory2 "memoire"
+Info: processeur: "pwm" instantiated altera_nios2_gen2 "processeur"
+Info: sortie: Starting RTL generation for module 'pwm_sortie'
+Info: sortie:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=pwm_sortie --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0103_sortie_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --vhdl --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0103_sortie_gen//pwm_sortie_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0103_sortie_gen/  ]
+Info: sortie: Done RTL generation for module 'pwm_sortie'
+Info: sortie: "pwm" instantiated altera_avalon_pio "sortie"
+Info: sysid: "pwm" instantiated altera_avalon_sysid_qsys "sysid"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "pwm" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "pwm" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "pwm" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'pwm_processeur_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/22.1std/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/22.1std/quartus/bin64//perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=pwm_processeur_cpu --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0107_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/22.1std/quartus/bin64/ --verilog --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0107_cpu_gen//pwm_processeur_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0107_cpu_gen/  ]
+Info: cpu: # 2023.11.23 01:06:43 (*) Starting Nios II generation
+Info: cpu: # 2023.11.23 01:06:43 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2023.11.23 01:06:43 (*)   Creating all objects for CPU
+Info: cpu: # 2023.11.23 01:06:44 (*)   Creating 'C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0107_cpu_gen//pwm_processeur_cpu_nios2_waves.do'
+Info: cpu: # 2023.11.23 01:06:44 (*)   Generating RTL from CPU objects
+Info: cpu: # 2023.11.23 01:06:44 (*)   Creating plain-text RTL
+Info: cpu: # 2023.11.23 01:06:44 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'pwm_processeur_cpu'
+Info: cpu: "processeur" instantiated altera_nios2_gen2_unit "cpu"
+Info: processeur_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "processeur_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: processeur_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "processeur_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: pwm: Done "pwm" with 29 modules, 49 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd="C:\Users\DELL\Desktop\VHDL project\pwmnios\pwm\pwm.spd" --output-directory="C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/simulation/" --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\DELL\Desktop\VHDL project\pwmnios\pwm\pwm.spd --output-directory=C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\DELL\Desktop\VHDL project\pwmnios\pwm.qsys" --block-symbol-file --output-directory="C:\Users\DELL\Desktop\VHDL project\pwmnios\pwm" --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading pwmnios/pwm.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Adding entree [altera_avalon_pio 22.1]
+Progress: Parameterizing module entree
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding memoire [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module memoire
+Progress: Adding processeur [altera_nios2_gen2 22.1]
+Progress: Parameterizing module processeur
+Progress: Adding sortie [altera_avalon_pio 22.1]
+Progress: Parameterizing module sortie
+Progress: Adding sysid [altera_avalon_sysid_qsys 22.1]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: pwm.entree: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: pwm.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: pwm.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: pwm.sysid: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\DELL\Desktop\VHDL project\pwmnios\pwm.qsys" --synthesis=VHDL --output-directory="C:\Users\DELL\Desktop\VHDL project\pwmnios\pwm\synthesis" --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading pwmnios/pwm.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Adding entree [altera_avalon_pio 22.1]
+Progress: Parameterizing module entree
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding memoire [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module memoire
+Progress: Adding processeur [altera_nios2_gen2 22.1]
+Progress: Parameterizing module processeur
+Progress: Adding sortie [altera_avalon_pio 22.1]
+Progress: Parameterizing module sortie
+Progress: Adding sysid [altera_avalon_sysid_qsys 22.1]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: pwm.entree: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: pwm.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: pwm.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: pwm.sysid: Time stamp will be automatically updated when this component is generated.
+Info: pwm: Generating pwm "pwm" for QUARTUS_SYNTH
+Info: entree: Starting RTL generation for module 'pwm_entree'
+Info: entree:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=pwm_entree --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0126_entree_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0126_entree_gen//pwm_entree_component_configuration.pl  --do_build_sim=0  ]
+Info: entree: Done RTL generation for module 'pwm_entree'
+Info: entree: "pwm" instantiated altera_avalon_pio "entree"
+Info: jtag_uart_0: Starting RTL generation for module 'pwm_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=pwm_jtag_uart_0 --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0127_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0127_jtag_uart_0_gen//pwm_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'pwm_jtag_uart_0'
+Info: jtag_uart_0: "pwm" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: memoire: Starting RTL generation for module 'pwm_memoire'
+Info: memoire:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=pwm_memoire --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0128_memoire_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0128_memoire_gen//pwm_memoire_component_configuration.pl  --do_build_sim=0  ]
+Info: memoire: Done RTL generation for module 'pwm_memoire'
+Info: memoire: "pwm" instantiated altera_avalon_onchip_memory2 "memoire"
+Info: processeur: "pwm" instantiated altera_nios2_gen2 "processeur"
+Info: sortie: Starting RTL generation for module 'pwm_sortie'
+Info: sortie:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=pwm_sortie --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0129_sortie_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0129_sortie_gen//pwm_sortie_component_configuration.pl  --do_build_sim=0  ]
+Info: sortie: Done RTL generation for module 'pwm_sortie'
+Info: sortie: "pwm" instantiated altera_avalon_pio "sortie"
+Info: sysid: "pwm" instantiated altera_avalon_sysid_qsys "sysid"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "pwm" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "pwm" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "pwm" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'pwm_processeur_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/22.1std/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/22.1std/quartus/bin64//perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=pwm_processeur_cpu --dir=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0133_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/22.1std/quartus/bin64/ --verilog --config=C:/Users/DELL/AppData/Local/Temp/alt9683_8419155173452639773.dir/0133_cpu_gen//pwm_processeur_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2023.11.23 01:07:10 (*) Starting Nios II generation
+Info: cpu: # 2023.11.23 01:07:10 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2023.11.23 01:07:10 (*)   Creating all objects for CPU
+Info: cpu: # 2023.11.23 01:07:11 (*)   Generating RTL from CPU objects
+Info: cpu: # 2023.11.23 01:07:11 (*)   Creating plain-text RTL
+Info: cpu: # 2023.11.23 01:07:11 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'pwm_processeur_cpu'
+Info: cpu: "processeur" instantiated altera_nios2_gen2_unit "cpu"
+Info: processeur_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "processeur_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: processeur_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "processeur_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/DELL/Desktop/VHDL project/pwmnios/pwm/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: pwm: Done "pwm" with 29 modules, 42 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
